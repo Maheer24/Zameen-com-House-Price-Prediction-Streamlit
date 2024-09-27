@@ -4,7 +4,7 @@ import streamlit as st
 
 pipeline = pickle.load(open('house_price_pred_pipeline.pkl', 'rb'))
 
-st.title("House Price Prediction")
+st.title("Zameen.com House Price Prediction")
 
 # Input fields for the user to provide data
 area_sq_ft = st.number_input("Enter the area in sq ft:", min_value = 1, max_value = 200000, value = 1000)
